@@ -1,0 +1,214 @@
+
+body{
+     background-color:#dec8ab;
+    }
+
+
+.container{ 
+            display: flex;
+            align-items: left;
+            justify-content: left;
+            width: 100%
+            height: 100vh;
+           }
+     
+ .menu{
+             width:100%;
+             height: 200px;
+             background: grey;
+             margin: 8px;
+             background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1));
+             border-radius:5px;
+             cursor:pointer;
+             font-size: 30px;
+            }
+
+                    
+.slider{  float: left;
+          width: 85%;
+          height: 400px;
+          background: url(image/p2.jpg);
+        
+          animation: slide 15s infinite;
+        }
+    
+ @keyframes slide{
+                   25%{
+                        background: url(image/p7.png);
+                      }        
+                    50%{
+                        background: url(image/p6.png);
+                      }      
+                    75%{
+                        background: url(image/p3.png);
+                      }  
+                     100%{
+                        background: url(image/p2.jpg);
+                      }  
+.text{
+        float: right;
+        font-size: 100px;
+        width: 30%
+       
+    }
+
+
+/* CSS for Credit Card Payment form */
+.credit-card-box .panel-title {
+                               display: inline;
+                               font-weight: bold;
+                               }
+
+
+.section-title h2 {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding-bottom: 6px;
+    color: #000;
+    letter-spacing: 0.3px;
+    padding: 0;
+}
+.section-title::after {
+    content: "";
+    height: 3px;
+    background: #fbb900;
+    width: 80px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+/****************/
+/*	 BX-SLIDER 	*/
+/****************/
+section.client {
+	padding:4em 0em;
+	background-color: #eee;
+
+}
+section.client .section-title {
+	margin-bottom: 6em;
+}
+.bx-controls {
+	position: relative;
+}
+.bx-wrapper .bx-pager {
+    text-align: center;
+    padding-top: 30px;
+}
+.bx-wrapper .bx-pager .bx-pager-item, .bx-wrapper .bx-controls-auto .bx-controls-auto-item {
+    display: inline-block;
+    *zoom: 1;
+    *display: inline;
+}
+.bx-wrapper .bx-pager.bx-default-pager a {
+    background: #666;
+    text-indent: -9999px;
+    display: block;
+    width: 10px;
+    height: 10px;
+    margin: 0 5px;
+    outline: 0;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+.credit-card-box .form-control.error {
+    border-color: red;
+    outline: 0;
+    box-shadow: inset 0 1px 1px rgba(0,0,0,0.075),0 0 8px rgba(255,0,0,0.6);
+}
+.credit-card-box label.error {
+  font-weight: bold;
+  color: red;
+  padding: 2px 8px;
+  margin-top: 2px;
+}
+.credit-card-box .payment-errors {
+  font-weight: bold;
+  color: red;
+  padding: 2px 8px;
+  margin-top: 2px;
+}
+.credit-card-box label {
+    display: block;
+}
+/* The old "center div vertically" hack */
+.credit-card-box .display-table {
+    display: table;
+}
+.credit-card-box .display-tr {
+    display: table-row;
+}
+.credit-card-box .display-td {
+    display: table-cell;
+    vertical-align: middle;
+    width: 50%;
+}
+/* Just looks nicer */
+.credit-card-box .panel-heading img {
+    min-width: 180px;
+}
+
+  height: 45px;
+  padding: 5px 10px;
+  margin-bottom: 10px;
+}
+.Yorder{
+  margin-top: 15px;
+  height: 600px;
+  padding: 20px;
+  border: 1px solid #dadada;
+}
+table{
+  margin: 0;
+  padding: 0;
+}
+th{
+  border-bottom: 1px solid #dadada;
+  padding: 10px 0;
+}
+tr>td:nth-child(1){
+  text-align: left;
+  color: #2d2d2a;
+}
+tr>td:nth-child(2){
+  text-align: right;
+  color: #52ad9c;
+}
+td{
+  border-bottom: 1px solid #dadada;
+  padding: 25px 25px 25px 0;
+}
+​
+p{
+  display: block;
+  color: #888;
+  margin: 0;
+  padding-left: 25px;
+}
+.Yorder>div{
+  padding: 15px 0; 
+}
+​
+button{
+  width: 100%;
+  margin-top: 10px;
+  padding: 10px;
+  border: none;
+  border-radius: 30px;
+  background: #52ad9c;
+  color: #fff;
+  font-size: 15px;
+  font-weight: bold;
+}
+button:hover{
+  cursor: pointer;
+  background: #428a7d;
+}
+
+
+                        

@@ -1,0 +1,49 @@
+<html>
+<head>
+<title>
+JERSEYS
+</title>
+</head>
+<body>
+<body bgcolor="red">
+<img src="logo.jpg" width="7%">
+<div align="right">
+<a href="home page.html"><button onclick>exit</button></a>
+</div>
+<br>
+<fieldset>
+<fieldset>
+<legend>JERSEYS</legend>
+<table>
+<table border="5">
+<tr>
+<td><img src="manchester city jersey.png" width="10%"></td>
+<td>Manchester City Jersey<br>
+price: ksh<br>
+<button onclick></button>
+</td>
+</tr>
+<tr>
+<td><img src="chelsea black jersey.png" width="10%"></td>
+<td>Chelsea Black Jersey<br>
+price: ksh<br>
+<button onclick></button>
+</td>
+</tr>
+<tr>
+<td><img src="PSG jersey.png" width="10%"></td>
+<td>PSG Jersey<br>
+price: ksh<br>
+<button onclick></button>
+</td>
+</tr>
+</table>
+</fieldset>
+</fieldset>
+<frameset>
+<FRAMESET ROWS="20 %, 80%" COLS="20%, 80 %">
+<FRAME SRC="male shirt.HTML"/>
+<FRAME SRC="home page.html"/>
+</frameset>
+</body>
+</hmtl>

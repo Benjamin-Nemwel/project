@@ -1,0 +1,56 @@
+<html>
+<head>
+<title>
+MALE SHIRTS
+</title>
+</head>
+<body>
+<body bgcolor="blue">
+<img src="logo.jpg" width="7%">
+<div align="right">
+<a href="home page.html"><button onclick>exit</button></a><br>
+<br>
+</div>
+<fieldset>
+<fieldset><legend>MALE SHIRTS</legend>
+<TABLE>
+<table border="5">
+<TR>
+<TD><img src="winter men shirt-Le Reve.png" width="10%"></TD>
+<TD>winter men shirt-Le Reve<br>
+price per shirt:ksh 600.00<br>
+<button onclick><img src="cart.png" width="25"></button>
+</TD>
+</TR>
+<TR>
+<TD><img src="fashion men flower shirt.png" width="10%"></TD>
+<TD>fashion men flower shirt<br>
+price per shirt:ksh 700.00<br>
+<button onclick></button>
+</TD>
+<TR>
+<TD><img src="casual print plaid long sleeve button shirt.png" width="10%"></TD>
+<TD>casual print plaid long sleeve button<br>
+price per shirt:ksh 650.00<br>
+<button onclick></button>
+</TD>
+</TR>
+<TR>
+<TD><img src="kids flower shirt.png" width="10%"></TD>
+<TD>kids flower shirt<br>
+price per shirt:ksh 450.00<br>
+<button onclick></button>
+</TD>
+</TR>
+<TR>
+<TD><img src="" width="10%"></TD>
+<TD>official shirt<br>
+price per shirt:ksh 800.00<br>
+<button onclick></button>
+</TD>
+</TR>
+</TABLE>
+</fieldset><br>
+</fieldset><br>
+</body>
+</html>

@@ -1,0 +1,47 @@
+<html>
+<head>
+<title>
+HOME PAGE
+</title>
+</head>
+<body>
+<img src="image/logo.jpg" width="7%">
+<body bgcolor="yellow">
+<div align="right">
+<a href="ENTRY%20PAGE.html"><button clickon>exit</button></a>
+<br></div>
+<br>
+<h2><marquee style="background-color:blue "direction="left" loop="infinity">welcome to <b>MTUMBA BALE CLOTHES</b></marquee>
+<br><br>
+</h2>
+<h3>we sale the following:</h3>
+<div align="middle">
+<A href="empere.html">shoes</a>
+<A href=".html">clothes</a>
+</div>
+</div>
+<br>
+<fieldset style="background-color:blue"><fieldset style="background-color:red"><legend>HISTORY OF THE COMPANY</legend>
+Mtumba Bale Clothes company is an importing organisation in Kenya that imports clothes.<br>
+it was started in 2010 by the following individuals.<br>
+<ul>
+<li>Eshiwani Michael.
+<li>Emilio Orina.
+<li>Danson Mburu.
+<li>David Ogola.
+<li>Edward Marwa.
+<li>Emmanuel Lemara.
+<li>Erick Kimani.
+<li>Eugene Okoth.
+<li>Gillian Waithera.
+<li>Mitchell Sandra.
+</ul>
+The members do all the best to ensure that you get the right product you need in time because they work as a team.
+</fieldset>
+</fieldset>
+<div class="footer">
+<div stlye="background-color:blue">
+gjgggu
+</div style="background-color:blue">
+</body>
+</html>

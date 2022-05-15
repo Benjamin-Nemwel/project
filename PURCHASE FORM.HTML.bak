@@ -1,0 +1,60 @@
+<html>
+<head>
+<title>
+PURCHASE FORM
+</title>
+</head>
+<body>
+<img src="logo.jpg" width="7%">
+<hr>
+<body bgcolor="green">
+<div align="right">
+<a href=".html"><button clickon>exit</button></a>
+</div>
+<fieldset>
+<fieldset>
+<legend>PURCHASE FORM</legend>
+<form>
+<B>First Name: </B> <input type="text" name="firstname"><BR><BR>
+<B>Last Name: </B> <input type="text" name="lastname"><br><BR>
+<B>phone number: </B> <input type="number" name="phone number" maxlength="9"><br><br>
+<B>ID NUMBER: </B> <input type="number" name="id number" maxlength="8"><br><br>
+<fieldset>
+<legend>SELECTED CLOTHES</legend>
+<input type="checkbox">
+Winter men shirt-Le Reve
+</input><br>
+<input type="checkbox">
+|Fashion men flower
+</input><br>
+<input type="checkbox">
+Casual print plaid
+</input><br>
+<input type="checkbox">
+kids flower shirt
+</input><br>
+<input type="checkbox">
+official shirt
+</input>
+</fieldset>
+<fieldset>
+<legend>MODE OF PAYMENT</legend>
+<FORM>
+<select name=" ">
+<option value="CASH">CASH
+<option value="M-PESA" >M-PESA
+<option value="BANK ACCOUNT">BANK ACCOUNT
+</select>
+</FORM>
+</fieldset>
+<div align="middle">
+<a href=""><button onclick>submit</button></a>
+</div>
+</form>
+</fieldset>
+ONLY BALES ARE THE ONE ALLOWED TO BE ORDERD.<br>
+FOR SINGLE CLOTH YOU CAN JUST PURCHASE THEM DIRECTLY<br>
+</fieldset>
+</form>
+</body>
+</html>

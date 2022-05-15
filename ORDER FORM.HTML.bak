@@ -1,0 +1,51 @@
+<html>
+<head>
+<title>
+PURCHASE FORM
+</title>
+</head>
+<body>
+<img src="logo.jpg" width="7%">
+<hr>
+<body bgcolor="green">
+<div align="right">
+<a href="home page.html"><button clickon>exit</button></a>
+</div>
+<fieldset>
+<fieldset>
+<legend>ORDER FORM</legend>
+<form>
+<B>First Name: </B> <input type="text" name="firstname"><BR><BR>
+<B>Last Name: </B> <input type="text" name="lastname"><br><BR>
+<B>phone number: </B> <input type="number" name="phone number" maxlength="9"><br><br>
+<B>company name: </B> <input type="text" name="company name"><br> OPTIONAL
+<b><u>CLOTH TYPE BEING ORDERED</u></b><br>
+<input type="checkbox" name="CLOTH TYPE BEING ORDERED" value="male shirt" >MALE SHIRT<BR>
+price: ksh 22,500.00<br>
+<input type="checkbox" name="CLOTH TYPE BEING ORDERED" value="male t-shirt" >MALE T-SHIRT<BR>
+<input type="checkbox" name="CLOTH TYPE BEING ORDERED" value="male trouser">MALE TROUSER<BR>
+<input type="checkbox" name="CLOTH TYPE BEING ORDERED" value="ladies top" >LADIES TOP<br>
+<input type="checkbox" name="CLOTH TYPE BEING ORDERED" value="ladies trouser">LADIES TROUSER<BR>
+<input type="checkbox" name="CLOTH TYPE BEING ORDERED" value="jersey" >JERSEY<br>
+<fieldset>
+<legend>MODE OF PAYMENT</legend>
+<FORM>
+<select name=" ">
+<option value="CASH">CASH
+<option value="M-PESA" >M-PESA
+<option value="BANK ACCOUNT">BANK ACCOUNT
+</select>
+</FORM>
+</fieldset>
+<div align="middle">
+<a href=""><button onclick>submit</button></a>
+</div>
+</form>
+</fieldset>
+ONLY BALES ARE THE ONE ALLOWED TO BE ORDERD.<br>
+FOR SINGLE CLOTH YOU CAN JUST PURCHASE THEM DIRECTLY<br>
+BALE TYPE ORDERED COME WITH 50 DIFFERENT VARIETIES OF CLOTHES<BR>
+</fieldset>
+</form>
+</body>
+</html>

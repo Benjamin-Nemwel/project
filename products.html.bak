@@ -1,0 +1,283 @@
+<!DOCTYPE <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>All Products</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+ <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script><link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<!--<link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">--->
+<script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous"/>
+</head>
+<body>
+
+    <div class="container">
+            <div class="navbar">
+                    <div class="logo">
+                        <img src="image/logo.jpg" width="125">
+                    </div>
+                    <nav>
+                        <ul id="menuitems">
+                            <li><a href="empere.html">Home</a></li>
+                            <li><a href="">Products</a></li>
+                            <li><a href="">About</a></li>
+                            <li><a href="">Contact</a></li>
+                            <li><a href="">Account</a></li>
+                        </ul>
+                    </nav>
+                    <img src="image/bag.png" width="30px" height="30px">
+                    <img src="image/menu.jpg" class="menu-icon" onclick="menutoggle()">
+                </div>
+   
+    </div>
+ <div class="categories">
+     <div class="small-container">
+         <div class="row row-2">
+         <h2>All Products</h2>
+
+                <select>
+                        <option>Default Sorting</option>
+                        <option>Sort by price</option>
+                        <option>Sort By Popularity</option>
+                        <option>sort by rating</option>
+                        <option>sort by sale</option>
+                </select>     
+                </div>   
+                    
+         
+                <div class="categories">
+                        <div class="small-container">
+                               <div class="row">
+                                       <div class="col-3"></div>
+                                       <img src="image/categ1.jpg" width="12%" >
+                                       <div class="desc">
+                                               <span><h4>Black Jordan Shoe</h4>
+                                                   </span>
+                                                   <div class="rating">
+                                                           <i class="fa fa-star"></i>
+                                                           <i class="fa fa-star"></i>
+                                                           <i class="fa fa-star"></i>
+                                                           <i class="fa fa-star"></i>
+                                                   </div>
+                                                   <p>$50.00<br></p>
+                                                       
+                                       </div>
+                                       
+                                   <div class="col-3"></div>
+                                       <img src="image/categ2.jpg" width="12%" >
+                                       <div class="desc">
+                                               <span><h4>kids running sneakers</h4>
+                                                   </span>
+                                                   <div class="rating">
+                                                           <i class="fa fa-star"></i>
+                                                           <i class="fa fa-star"></i>
+                                                           <i class="fa fa-star"></i>
+                                                           <i class="fa fa-star"></i>
+                                                   </div>
+                                                   <p>$15.00</p>
+                                                   </div>
+                                       <div class="col-3"></div>
+                                       <img src="image/categ4.jpg" width="12%"  >
+                                       <div class="desc">
+                                               <span><h4>Red high heels</h4>
+                                                   </span>
+                                                   <div class="rating">
+                                                           <i class="fa fa-star"></i>
+                                                           <i class="fa fa-star"></i>
+                                                           <i class="fa fa-star"></i>
+                                                           <i class="fa fa-star"></i>
+                                                   </div>
+                                                   <p>$25.00</p>
+                                                   </div>
+                                       <div class="col-3"></div>
+                                       <img src="image/categ3.jpg" width="12%"> 
+                                       <div class="desc">
+                                               <span><h4>Black kids high boots</h4>
+                                                   </span>
+                                                   <div class="rating">
+                                                   <i class="fa fa-star"></i>
+                                                   <i class="fa fa-star"></i>
+                                                   <i class="fa fa-star"></i>
+                                                   <i class="fa fa-star"></i>
+                                                   </div>
+                                                   <p>$30.00</p>
+                                                   </div>
+                            
+                                   </div>
+                   
+                        </div>
+                        <div class="row">
+                               <div class="col-3"></div>
+                               <img src="image/arr1.webp" width="12%" >
+                               <div class="desc">
+                                       <span><h4>Black Jordan Shoe</h4>
+                                           </span>
+                                           <div class="rating">
+                                                   <i class="fa fa-star"></i>
+                                                   <i class="fa fa-star"></i>
+                                                   <i class="fa fa-star"></i>
+                                                   <i class="fa fa-star"></i>
+                                           </div>
+                                           <p>$50.00<br></p>
+                                               
+                               </div>
+                               
+                           <div class="col-3"></div>
+                               <img src="image/arr2.jpg" width="12%" >
+                               <div class="desc">
+                                       <span><h4>kids running sneakers</h4>
+                                           </span>
+                                           <div class="rating">
+                                                   <i class="fa fa-star"></i>
+                                                   <i class="fa fa-star"></i>
+                                                   <i class="fa fa-star"></i>
+                                                   <i class="fa fa-star"></i>
+                                           </div>
+                                           <p>$15.00</p>
+                                           </div>
+                               <div class="col-3"></div>
+                               <img src="image/arr3.jpg" width="12%"  >
+                               <div class="desc">
+                                       <span><h4>Red high heels</h4>
+                                           </span>
+                                           <div class="rating">
+                                                   <i class="fa fa-star"></i>
+                                                   <i class="fa fa-star"></i>
+                                                   <i class="fa fa-star"></i>
+                                                   <i class="fa fa-star"></i>
+                                           </div>
+                                           <p>$25.00</p>
+                                           </div>
+                               <div class="col-3"></div>
+                               <img src="image/arr4.jpg" width="12%"> 
+                               <div class="desc">
+                                       <span><h4>Black kids high boots</h4>
+                                           </span>
+                                           <div class="rating">
+                                                   <i class="fa fa-star"></i>
+                                                   <i class="fa fa-star"></i>
+                                                   <i class="fa fa-star"></i>
+                                                   <i class="fa fa-star"></i>
+                                           </div>
+                                           <p>$30.00</p>
+                                           </div>
+                    
+                           </div>
+                   
+                   </div>
+                   <div class="row">
+                           <div class="col-3"></div>
+                           <img src="image/arr5.jpg" width="12%" >
+                           <div class="desc">
+                                   <span><h4>Black Jordan Shoe</h4>
+                                       </span>
+                                       <div class="rating">
+                                               <i class="fa fa-star"></i>
+                                               <i class="fa fa-star"></i>
+                                               <i class="fa fa-star"></i>
+                                               <i class="fa fa-star"></i>
+                                       </div>
+                                       <p>$50.00<br></p>
+                                           
+                           </div>
+                           
+                       <div class="col-3"></div>
+                           <img src="image/arr6.jpg" width="12%" >
+                           <div class="desc">
+                                   <span><h4>kids running sneakers</h4>
+                                       </span>
+                                       <div class="rating">
+                                               <i class="fa fa-star"></i>
+                                               <i class="fa fa-star"></i>
+                                               <i class="fa fa-star"></i>
+                                               <i class="fa fa-star"></i>
+                                       </div>
+                                       <p>$15.00</p>
+                                       </div>
+                           <div class="col-3"></div>
+                           <img src="images/arr7.jpg" width="12%"  >
+                           <div class="desc">
+                                   <span><h4>Red high heels</h4>
+                                       </span>
+                                       <div class="rating">
+                                               <i class="fa fa-star"></i>
+                                               <i class="fa fa-star"></i>
+                                               <i class="fa fa-star"></i>
+                                               <i class="fa fa-star"></i>
+                                       </div>
+                                       <p>$25.00</p>
+                                       </div>
+                           <div class="col-3"></div>
+                           <img src="image/arr8.jpg" width="12%"> 
+                           <div class="desc">
+                                   <span><h4>Black kids high boots</h4>
+                                       </span>
+                                       <div class="rating">
+                                               <i class="fa fa-star"></i>
+                                                   <i class="fa fa-star"></i>
+                                                   <i class="fa fa-star"></i>
+                                                   <i class="fa fa-star"></i>
+                                       </div>
+                                       <p>$30.00</p>
+                                       </div>
+                   
+                       </div>
+                   
+                   </div>
+                       </div>
+                     <div class="page-btn">
+                         <span>1</span>
+                         <span>2</span>
+                         <span>3</span>
+                         <span>4</span>
+                         <span>&#8594;</span>
+                     </div>
+    </div>
+    
+    <!--footer-->
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Download our App</h3>
+                    <p> our app is available from google playstore for android and Apple store for IOS</p>
+                    <div class="app-logo">
+                        <img src="images/store.png" >
+                    </div>
+                </div>
+                <div class="footer-col-2">
+                        <img src="image/logo.jpg" width="125">
+                        <p> our app is available from google playstore for android and<br> Apple store for IOS</p>
+                    </div>
+                    <div class="footer-col-3">
+                           <h3>Links</h3>
+                            <ul>
+                                <li>coupons</li>
+                                <li>Blog Post</li>
+                                <li>Return Policy</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="footer-col-4">
+                           <h3>Social Media</h3>
+                            <ul>
+                                <li>Facebook</li>
+                                <li>Instagram</li>
+                                <li>Twitter</li>
+                            </ul>
+                      </div>
+            </div>
+            <hr>
+            <p class="copyright">copyright 2022</p>
+        </div>
+    </div>
+
+
+</body>
+</html>

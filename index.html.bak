@@ -1,0 +1,44 @@
+<html>
+<head>
+<title>ENTRY PAGE</title>
+</head>
+<body>
+<body background color="white">
+<img src="image/logo.jpg" width="10%" lenght="20%" alt="fashion&store" title="shoes and clothes">
+<hr>
+<nav>
+<table cellspacing="5" cellpadding="5">
+<tr>
+<td><a href="home page.html">HOME PAGE</a></td>
+			</table>
+
+
+		</nav>
+		<hr>
+		<div class="col-3">
+		<marquee style="background-color:white "direction="left" loop="infinity" width="100%"><h2>Welcome to Fashion$Store design</h2></marquee>
+			<p>This type of company mainly deals with many varieties of Clothes and shoes. We have all types of shoes and clothes for both genders.As Art offers a creative alternative in this industry: customers create and then produce their own designs on garments. Faced with strong competition, this plan outlines several marketing strategies and provides insight into factors like location and demography.</p>
+				<img src="image/men1.jpg" width="20%" length="40%">
+				<img src="image/men1.jpg" width="20%" length="40%">
+				<img src="image/men5.jpg" width="20%" length="60" position="centre">
+				<img src="image/men1.jpg" width="20%" length="40%">
+				<p>We are located at different places as follows:</p>
+			<ol type="1" start="1">
+				<li>Kenya</li>
+					<ol type="i">
+						<li>Malindi</li>
+						<li>Mairobi</li>
+					</ol>
+					<li>Tanzania</li>
+						<ol type="i">
+							<li>Arusha</li>
+							<li>Dodoma</li>
+						</ol>
+						<hr>
+						<footer>
+							Copyright &copy; fashion&store 2022
+						</footer>
+
+	
+</body>
+</html>

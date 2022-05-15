@@ -1,0 +1,270 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+
+}
+.body{
+    font-family: 'Satisfy', cursive;
+}
+.navbar {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+nav{
+    flex: 1;
+    text-align: right
+}
+nav ul{
+    display: inline-block;
+    list-style-type: none;
+
+}
+nav ul li {
+    display: inline-block;
+    margin: 25px;
+}
+a {
+    text-decoration: none;
+    color: #555555;
+}
+p {
+    color: #555555;
+}
+.container {
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.col-2{
+    flex-basis: 50%;
+    min-width: 300px;
+}
+.col-2 img{
+    max-width: 500%;
+    padding: 50px 20px;
+}
+.col-2 h1{
+    font-size: 70px;
+    line-height: 60px;
+    margin: 25px 0px;
+}
+.btn{
+    display: inline-block;
+    background: #ff523b;
+    color: #fff;
+    padding: 8px 30px;
+    margin: 30px 0;
+    border-radius: 30px;
+    transition: background 0.5s;
+}
+.btn:hover{
+    background: #563434;
+}
+
+.header{
+    background: radial-gradient(#fff,#ffd6d6)
+}
+.header{
+    margin-top: 70px;
+}
+.categories{
+    margin: 70px 0;
+}
+.row::after{
+    content:"";
+    clear: both;
+    display:table;
+}
+
+.small-container{
+    max-width: 1080px;
+    margin: auto;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.tittle{
+    text-align: center;
+    margin: 0 auto 80px;
+    position: relative;
+    line-height: 60px;
+    color: #555555;
+}
+    .tittle::after{
+        content: "";
+        background:#ff523b;
+        width: 80px;
+        height: 5px;
+        border-radius:5px;
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+ .col-3 p{
+     font-size: 14px;
+     color: #ff523b;
+ }
+ .col-3{
+     padding: 5px;
+     transition: transform 0.5s;
+ }
+
+ h4{
+     color: #555555;
+     font-weight: normal;
+ }
+ . rating.fa {
+     color: #ff523b;
+ }
+ .col-3{
+     transform: translateY(-5px);
+ }
+ .offer{
+    background: radial-gradient(#fff,#ffd6d6);
+    margin-top: 80px;
+    padding: 30px 0;
+
+ }
+ .col-2.offer-img{
+     padding: 50px;
+    
+ }
+ small{
+     color: #563434;
+ }
+ /*----brands-----*/
+ .brands{
+     margin: 100px auto;
+ }
+
+ .col-4{
+     width: 160px;
+ }
+ .col-4 img{
+     width: 100%;
+     cursor: pointer;
+     filter: grayscale(100%);
+ }
+ /*---footer---*/
+ .footer{
+     background: #000000;
+     color: #88aa88;
+     font-size: 14px;
+     padding: 60px 0 20px;
+ }
+ .footer p{
+    color: #88aa88;
+ }
+ .footer h3{
+     color: #fff;
+     margin-bottom: 20px
+ }
+ .footer-col-1, .footer-col-2, .footer-col-3, .footer-col-4{
+     min-width: 250px;
+     margin-bottom: 20px;
+ }
+ .footer-col-1{
+     flex-basis: 30%;
+      }
+          .footer-col-2{
+        flex: 1;
+        text-align: center;
+         }    
+             .footer-col-2 img{
+           width: 150px;
+           margin-bottom: 20px;
+             }    
+             .footer-col-3, . .footer-col-4 {
+                 flex-basis: 12%;
+                 text-align: center;
+             }
+             ul{
+                 list-style-type: none;
+             }
+             .app-logo{
+                 margin-top: 20px;
+             }
+             .footer hr{
+                 border: none;
+                 background: #b5b5b5;
+                 height: 1px;
+                 margin: 20px 0;
+             }
+             .copyright{
+                 text-align: center;
+
+             }
+             .menu-icon{
+                 width: 28px;
+                 margin-left: 20px;
+                 display: none;
+                
+                         }
+/*all products*/
+.row-2{
+    justify-content: space-between;
+    margin: 100px auto 50px;
+}
+.select{
+    border: 1px solid #ff523b;
+    padding: 5px;
+}   
+.select :focus{
+    outline: none;
+}      
+
+.page-btn{
+    margin: 0 auto 80px;
+    padding: 25px;
+}
+.page-btn span {
+    border-style: solid;
+    color: #000000;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+ /*----media query---*/
+ @media only screen and (max-width:800px){
+    nav ul{
+        position: absolute;
+        top: 70px;
+        left: 0;
+        background: #000000;
+        width: 100px;
+    }
+    nav ul li{
+        color: #fff;
+    }
+}
+/*----media query for less than 600 size---*/
+@media only screen and (max-width:600px){
+    .row{
+        text-align: center;
+    }
+    .col-2,.col-3,.col-4{
+        flex-basis: 100%;
+    }
+
+    
+     
+}
+
+
+                       
+                            
+                      
